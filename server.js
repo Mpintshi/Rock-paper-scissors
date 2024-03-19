@@ -107,8 +107,8 @@ function declareWinner(roomUniqueId) {
     rooms[roomUniqueId].p2Choice = null;
 }
 
-server.listen(3000, () => {
-    console.log('listening on *:3000');
+server.listen(5000, () => {
+    console.log('localhost:5000');
 });
 
 // Generate a random room ID
